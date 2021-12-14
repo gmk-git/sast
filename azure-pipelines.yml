@@ -19,7 +19,7 @@ stages:
   - job: Build
     displayName: Docker Build and Push - default
     pool:
-      vmImage: 'ubuntu-20.04'
+      vmImage: 'ubuntu -V@-20.04'
     steps:
     - task: Docker@2
       inputs:
